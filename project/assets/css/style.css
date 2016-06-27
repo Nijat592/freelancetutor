@@ -566,3 +566,498 @@ footer {
 			margin: 5px;
 		}
 
+		html, body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+	/*font-size: 14px;*/
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    /*font-family: 'Montserrat', sans-serif;*/
+}
+
+.margin0{margin: 0px;}
+.padding0{padding: 0px;}
+
+/*========================================================================== Result Search starts ===========================================================================*/
+.resultSearch{
+	background: #33B6CB;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.resultSearch .labeling{
+	position: absolute;
+    top: 9px;
+    left: 0;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.form-lg .form-control {
+    border-radius: 3px;
+    border-color: #CCC;
+    font-weight: 600;
+    height: 42px;
+    font-size: 15px;
+}
+
+.resultSearch .btn{
+	font-size: 17px;
+	padding: 10px;
+    background: #505F6B;
+    border-radius: 3px;
+    color: #FFF;
+}
+
+ul.quick-search{
+	list-style: none;
+	margin-left: 70px;
+}
+
+ul.quick-search li{
+	display: inline-block;
+    color: #FFF;
+    font-weight: 600;
+    margin-right: 20px;
+    line-height: 1.2;
+}
+
+ul.quick-search li a{
+	color: #FFFFEE;
+    font-weight: 400;
+    display: block;
+    position: relative;
+    padding-right: 20px;
+}
+
+ul.quick-search li a:hover{
+	text-decoration: none;
+}
+
+ul.quick-search li a:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 16px;
+    background-color: #FFFFEE;
+}
+/*========================================================================== Result Search ends ===========================================================================*/
+
+
+/*========================================================================== Result Breadcrumbs starts ===========================================================================*/
+.resultBreadcrumbs{
+	/*padding: 10px 0;*/
+	height: 46px;
+	line-height: 28px;
+    background: #F5F5F5;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.resultBreadcrumbs .breadcrumb ol{
+	list-style: none;
+}
+
+.resultBreadcrumbs .breadcrumb a:visited, a:focus, a:active, a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+.resultBreadcrumbs .breadcrumb a{
+	color: #33B6CB;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.resultBreadcrumbs .breadcrumb span{
+	color: #9C9C9C;
+}
+/*========================================================================== Result Breadcrumbs ends  ===========================================================================*/
+
+
+/*========================================================================== Result Filter starts ===========================================================================*/
+
+.resultFilter{
+	margin-top: 20px;
+}
+
+.resultFilter .topRow{
+	margin-bottom: 20px;
+}
+
+.resultFilter .bottomRow{
+	display: none;
+	margin-bottom: 20px;
+}
+
+.resultFilter .bootstrap-select.btn-group{
+	width: 190px;
+	border-radius: 3px;
+}
+
+.resultFilter .button-checkbox button{
+	border-color: none;
+}
+
+.resultFilter .button-checkbox button:hover{
+	background-color: #953535;
+	border: none;
+}
+
+ .resultFilter .dropdown .btn{
+	width: 185px;
+	text-align: left;
+}
+
+.btn-toggle.btn-refine.collapsed:hover, .btn-toggle.btn-refine {
+    color: #2991A2;
+}
+
+.btn-toggle.btn-refine {
+    background: none;
+    padding: 0;
+    position: relative;
+    padding-right: 27px;
+    color: #33B6CB;
+    font-weight: 600;
+    margin-top: -4px;
+    margin-bottom: 9px;
+    float: right;
+}
+
+.btn-toggle.btn-refine.collapsed:after {
+    /*content: '\f4a6';*/
+    font-size: 20px;
+    top: -5px;
+    right: 0;
+
+}
+
+.btn-toggle.btn-refine:after {
+    font-family: "Ionicons";
+    position: absolute;
+}
+
+.bottomMoreFilter{
+	margin-bottom: 20px;
+}
+
+.btnCheckBoxUp{
+	margin-bottom: 10px;
+}
+
+.btnCheckBoxDown{
+	float: right;
+}
+
+/*========================================================================== Result Filter ends ===========================================================================*/
+
+/*========================================================================== Result Job Lists starts ===========================================================================*/
+
+.resultJobLists{    
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.texing{
+    margin-bottom: 30px;
+    color: #939393;
+}
+
+.sub-category a:hover{
+    border-color: #52c0d1;
+    color: #52c0d1;
+}
+
+.backColor{
+    background-color: #edf2f2;
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.meta-div {
+    margin-bottom: 25px;
+}
+
+.meta-div span:nth-last-child(2){
+    color: #939393;
+}
+
+.meta-div span a{
+    color: #42bbce;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.meta-div span:nth-last-child(1){
+    padding: 5px 10px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+.resultJobLists ol, ul {
+    list-style: none;
+    padding: 0;
+    color: #939393;
+    margin: 30px 0;
+}
+
+.resultJobLists ul.meta-list li {
+    margin: 7px 0;
+
+}
+
+ul.meta-list li span {
+    font-weight: 600;
+}
+
+.category-group p.sub-category a, .sub-category a {
+    color: #939393;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    padding: 7px;
+    display: inline-block;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.resultJobLists button{
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all .3s; 
+    border-width: 2px;
+    border-color: #33B6CB;
+}
+
+.resultJobLists button:hover{
+    background: #57959f;
+    border-color: #57959f;
+}
+
+.resultJobLists .first{
+    margin-bottom: 30px;
+}
+
+/*========================================================================== Result Job Lists ends ===========================================================================*/
+
+
+
+/*========================================================================== Result SideBar starts ===========================================================================*/
+
+.resultSideBar .row{
+    margin-left: 7px;
+}
+
+.resultSideBar span h4{
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.resultSideBar .marg20{
+    margin-bottom: 20px;
+}
+
+.resultSideBar .image{
+    background-color: #f7fcfc;
+}
+
+.resultSideBar .top {
+    /*padding: 15px;*/
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.resultSideBar .top .image {
+    border-bottom: 1px solid #DDD;
+    padding: 20px 30px;
+    background: #F7FCFC;
+    border-radius: 3px 3px 0 0;
+}
+
+.resultSideBar .top a {
+    color: #939393;
+    font-weight: 400;
+}
+
+.resultSideBar img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.resultSideBar .top .content {
+    padding: 20px 15px;
+    line-height: 1.2;
+}
+
+.resultSideBar .top .content h5{
+    margin-bottom: 10px;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+
+.resultSideBar .top .content .text{
+    color: #33B6CB !important;
+    font-weight: 700;
+}
+
+.resultSideBar .top .content .text{
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+.font600 {
+    font-weight: 600 !important;
+}
+
+.resultSideBar .top .content p:last-child {
+    margin: 0;
+}
+
+.resultSideBar .top .content .font13 {
+    font-size: 13px !important;
+}
+
+.resultSideBar .top:hover{
+    box-shadow: 0px 0px 9px -2px rgba(0, 0, 0, 0.37);
+}
+
+
+.resultSideBar h4.sidebar-title {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.resultSideBar .locations{
+    margin: 30px 0;
+}
+
+.resultSideBar ul.sidebar-link-list li {
+    line-height: 1.2;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.resultSideBar .sidebar-link-list a {
+    color: #939393;
+    display: block;
+    font-weight: 400;
+}
+
+.resultSideBar ul.sidebar-link-list li span {
+    display: inline-block;
+    margin-left: 7px;
+    font-size: 12px;
+    color: #A7A7A7;
+    letter-spacing: 0.4px;
+}
+
+.resultSideBar ul.sidebar-link-list li ul {
+    margin-top: 12px;
+    padding-left: 15px;
+    border-left: 1px dotted #CCC;
+    margin-left: 5px;
+}
+
+.resultSideBar ul.sidebar-link-list li ul li {
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+.resultSideBar ul.sidebar-link-list li ul li:before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: -15px;
+    width: 10px;
+    height: 2px;
+    border-top: 1px dotted #CCC;
+}
+
+
+/*========================================================================== Result SideBar ends ===========================================================================*/
+
+
+
+/*========================================================================== Result Pagination starts ===========================================================================*/
+
+.resultPagination{
+    margin-bottom: 100px;
+}
+
+.resultPagination .pager-wrapper {
+    /*margin-top: 30px;*/
+}
+
+.resultPagination ul.pager-list {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.resultPagination ul.pager-list li {
+    display: inline-block;
+    margin: 0 3px;
+    font-weight: 600;
+    color: #5D5D5D;
+}
+
+.resultPagination ul.pager-list li.paging a {
+    background: #EDF2F2;
+    height: 28px;
+    line-height: 24px;
+    padding: 0 10px;
+    text-align: center;
+    display: block;
+    border: 2px solid #EDF2F2;
+    border-radius: 3px;
+}
+
+.resultPagination ul.pager-list li a {
+    color: #5D5D5D;
+}
+
+.resultPagination .mr-5 {
+    margin-right: 5px !important;
+}
+
+.resultPagination ul.pager-list li .form-control {
+    width: 50px;
+    text-align: center;
+    height: 28px;
+    display: block;
+    float: left;
+    margin: 0;
+    margin-bottom: -10px;
+}
+
+/*========================================================================== Result Pagination ends ===========================================================================*/
+
+
