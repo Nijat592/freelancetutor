@@ -1,39 +1,378 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style type="text/css">
-		body {
-			margin: 0 auto;
-		}
-		header {
-			height		: 80px;
-			width		: 100%;
-			background	: red;
-
-		}
-		.main-wrapper {
-			height		: 1200px;
-			width 		: 100%;
-			background	: gray;  
-		}
-		footer {
-			height		: 410px;
-			width		: 100%;
-			background	: yellow; 
-		}
-
-	</style>
 	<title>Index</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://use.fontawesome.com/aeb8f274a4.js"></script>
 </head>
-<body>
-	<header>
-		header
-	</header>
-	<div class='main-wrapper'>
-		main-wrapper
-	</div>
-	<footer>
-		footer
-	</footer>
+<body> 
+
+<!-- <nav class="navbar navbar-fixed-top menu">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="logo.png"></a>
+    </div>
+    <div class="htext">
+      <ul>
+        <li>home</li>
+        <li>job</li>
+        <li>employer</li>
+        <li>employee</li>
+        <li>page</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ -->
+
+
+<nav class="navbar  navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="logo.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1" style="margin:0 auto">
+      <ul class="nav navbar-nav home ">
+        <li><a href="#">home</a></li>
+        <li><a href="#">job</a></li>
+        <li><a href="#">employer</a></li>
+        <li><a href="#">employee</a></li>
+        <li><a href="#">page</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right login">
+        <!-- <li><a href="#">Login</a></li>
+        <li><a href="#">Register</a></li> -->
+          <button type="button" class="btn btn-default">Login</button>
+          <button type="button" class="btn btn-default">Register</button>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- section1 burda baslayir -->
+
+<section class="sec1">
+  <div class="container-fluid">
+
+    <div class="row">
+    <!-- section'daki boslugu bu divle doldurmusham -->
+    <div class="bosluq"></div>
+    <div class="bosluq"></div>
+    <!--  -->
+      <div class="col-md-12 text-center menutext">
+        <h1>Your Future Starts Here Now</h1>
+      </div>
+    </div>
+    <div class="col-md-12 text-center smtext">
+      <h3>Finding your next job or career more 1000+ availabilities</h3>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 search">
+        <div class="col-md-6">
+          <form>
+            <input type="text" placeholder="Looking for job">
+          </form>
+        </div>
+        <div class="col-md-6">
+           <form>
+            <input type="text" placeholder="Place to work">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- section2 burda baslayir -->
+
+
+<section class="sec2">
+  <div class="container">
+  <!-- section'daki boslugu bu divle doldurmusham -->
+  <div class="bosluq"></div>
+  <!--  -->
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1 style=" letter-spacing: 2px;font-size:40px;"><b>find jobs by category</b></h1>
+      </div>   
+    </div>
+    <div class="row" style="margin-top:50px;">
+      <div class="col-md-4 text-center">
+        <div>
+          <i class="fa fa-laptop fa-4x" aria-hidden="true"></i>
+        </div>
+        <div>
+          <h5><b>Computer & IT</b></h5>
+          <p>Or kind rest bred with am shed then.</p>
+          <div class="sec2b col-md-10 col-md-offset-1">
+            <a href="#">Android</a>
+            <a href="#">IOS</a>
+            <a href="#">Networking</a>
+            <a href="#">Programming</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div>
+          <i class="fa fa-crop fa-4x" aria-hidden="true"></i>
+        </div>
+        <div>
+          <h5><b>Engineering</b></h5>
+          <p>In raptures building an bringing be.</p>
+          <div class="sec2b col-md-10 col-md-offset-1">
+            <a href="#">Android</a>
+            <a href="#">IOS</a>
+            <a href="#">Networking</a>
+            <a href="#">Programming</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div>
+          <i class="fa fa-heart-o fa-4x" aria-hidden="true"></i>
+        </div>
+        <div>
+          <h5><b>Customer Service</b></h5>
+          <p>Elderly is detract tedious assured private.</p>
+          <div class="sec2b col-md-10 col-md-offset-1">
+            <a href="#">Android</a>
+            <a href="#">IOS</a>
+            <a href="#">Networking</a>
+            <a href="#">Programming</a>
+            <a href="#">More</a>
+            <a href="#">More</a>
+            <a href="#">More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="margin-top:50px;">
+      <div class="col-md-4 text-center">
+        <div>
+          <i class="fa fa-line-chart fa-4x" aria-hidden="true"></i>
+        </div>
+        <div>
+          <h5><b>Marketing</b></h5>
+          <p>Travelling companions contrasted it.</p>
+          <div class="sec2b col-md-10 col-md-offset-1">
+            <a href="#">Android</a>
+            <a href="#">IOS</a>
+            <a href="#">Networking</a>
+            <a href="#">Programming</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div>
+          <i class="fa fa-wordpress fa-4x" aria-hidden="true"></i>
+        </div>
+        <div>
+          <h5><b>Operations</b></h5>
+          <p>Mistress strongly remember up to.</p>
+          <div class="sec2b col-md-10 col-md-offset-1">
+            <a href="#">Android</a>
+            <a href="#">IOS</a>
+            <a href="#">Networking</a>
+            <a href="#">Programming</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div>
+          <i class="fa fa-glide fa-4x" aria-hidden="true"></i>
+        </div>
+        <div>
+          <h5><b>Insurance</b></h5>
+          <p>Ham him compass you proceed calling detract.</p>
+          <div class="sec2b col-md-10 col-md-offset-1">
+            <a href="#">Android</a>
+            <a href="#">IOS</a>
+            <a href="#">Networking</a>
+            <a href="#">Programming</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-12 text-center">
+      <a href="#" class="btn btn-primary bt-large mybutton"><b>BROWSE ALL CATEGORIES</b></a>
+    </div>
+
+    <div class="row">
+      
+    </div>
+  </div>
+</section>
+
+
+<!-- section 2 burda bitir -->
+
+
+
+<!-- section 3  burda baslayir-->
+
+<section>
+  <div class="container">
+  <!-- section'daki boslugu bu divle doldurmusham -->
+  <div class="bosluq"></div>
+  <!--  -->
+    <div class="row">
+      <div class="col-md-8" style="padding: 0px !important;">
+        <h1 style=" letter-spacing: 2px;font-size:40px;"><b>Featured Jobs</b></h1> 
+      </div>
+      <div class="col-md-4">
+        <h1 style=" letter-spacing: 2px;font-size:40px;"><b>top employers</b></h1>
+      </div>      
+    </div> 
+      <div class="bosluq"></div>
+    <div class="row">
+      <div class="col-md-8">  
+        <div class="row jobs">
+              <div class="col-md-2">
+                <img src="01.png">
+              </div>
+              <div class="col-md-4">
+                <dl>
+                  <dt>IT Web Developer</dt>
+                  <dd>Expedia</dd>
+                </dl>
+              </div>
+              <div class="col-md-3 text-left">
+                <p>Guildford,Surrey</p>
+              </div>
+              <div class="col-md-3">
+                 <button type="button" class="btn btn-success dropdown-toggle pull-right" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Freelance</button>
+              </div>     
+        </div>
+        <div class="row jobs">
+          <div class="col-md-2">
+            <img src="02.png">
+          </div>
+          <div class="col-md-4">
+            <dl>
+              <dt>IT Web Developer</dt>
+              <dd>Expedia</dd>
+            </dl>
+          </div>
+          <div class="col-md-3 text-left">
+            <p>Guildford,Surrey</p>
+          </div>
+          <div class="col-md-3">
+             <button type="button" class="btn btn-danger dropdown-toggle pull-right" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Freelance</button>
+          </div>
+        </div>
+        <div class="row jobs">
+          <div class="col-md-2">
+            <img src="04.png">
+          </div>
+          <div class="col-md-4">
+            <dl>
+              <dt>IT Web Developer</dt>
+              <dd>Expedia</dd>
+            </dl>
+          </div>
+          <div class="col-md-3 text-left">
+            <p>Guildford,Surrey</p>
+          </div>
+          <div class="col-md-3">
+             <button type="button" class="btn btn-success dropdown-toggle pull-right" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Freelance</button>
+          </div>
+        </div>
+        <div class="row jobs">
+          <div class="col-md-2">
+            <img src="05.png">
+          </div>
+          <div class="col-md-4">
+            <dl>
+              <dt>IT Web Developer</dt>
+              <dd>Expedia</dd>
+            </dl>
+          </div>
+          <div class="col-md-3 text-left">
+            <p>Guildford,Surrey</p>
+          </div>
+          <div class="col-md-3">
+             <button type="button" class="btn btn-danger dropdown-toggle pull-right" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Freelance</button>
+          </div>
+        </div>
+        <div class="row jobs">
+          <div class="col-md-2">
+            <img src="06.png">
+          </div>
+          <div class="col-md-4">
+            <dl>
+              <dt>IT Web Developer</dt>
+              <dd>Expedia</dd>
+            </dl>
+          </div>
+          <div class="col-md-3 text-left">
+            <p>Guildford,Surrey</p>
+          </div>
+          <div class="col-md-3">
+             <button type="button" class="btn btn-warning dropdown-toggle pull-right" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Freelance</button>
+          </div>
+        </div>    
+      </div>
+
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-5 col-md-offset-1 employee text-center">
+            <img src="01.png">
+            <p><b>Freelancer</b></p>
+            <a href="#">view 15 jobs</a>
+          </div>
+          <div class="col-md-5 col-md-offset-1 employee text-center">
+            <img src="05.png">
+            <p><b>Wotif</b></p>
+            <a href="#">view 15 jobs</a>
+          </div>
+
+          <div class="col-md-5 col-md-offset-1 employee text-center">
+            <img src="18.png">
+            <p><b>Cisco</b></p>
+            <a href="#">view 15 jobs</a>
+          </div>
+          <div class="col-md-5 col-md-offset-1 employee text-center">
+            <img src="12.png">
+            <p><b>Airbnb</b></p>
+            <a href="#">view 15 jobs</a>
+          </div>
+
+         <div class="col-md-5 col-md-offset-1 employee text-center">
+            <img src="10.png">
+            <p><b>Merck</b></p>
+            <a href="#">view 15 jobs</a>
+          </div>
+          <div class="col-md-5 col-md-offset-1 employee text-center">
+            <img src="08.png">
+            <p><b>Fedex</b></p>
+            <a href="#">view 15 jobs</a>
+          </div>
+         
+        </div>
+      </div>
+    </div> 
+  </div>
+</section>
+
+  <div class="bosluq"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> 
+<script src="main.js"></script> 
 </body>
 </html>
