@@ -462,3 +462,107 @@ footer {
 		padding-bottom: 22px;
 	}
 
+
+
+
+	/*Sureyyanin kodlari*/
+
+	.s-img{
+		border: 3px solid pink;
+		padding: 3px;
+		height: 160px;
+		width: 160px;
+		border-radius: 100%;
+		margin: 0 auto;
+	}
+	.s-img div{
+		border: 3px solid pink;
+		padding: 6px;
+		border-radius: 100%;
+	}
+
+	.s-img div img{
+		height: 100%;
+		width: 100%;
+		border-radius: 100%
+	}
+	.s-center {
+		text-align: center;
+	}
+
+
+	.s-btn{
+		background: pink;
+		border-style: none;
+		padding: 10px 15px;
+		border-radius: 5px;
+		text-align: center;
+		width:auto;
+		color: white;
+		outline: 0;
+	}
+	.s-btn:hover{
+		text-decoration: none;
+		background:#FFA4B3;
+		color: white;
+	}
+	.s-btn:hover a{
+			color: white;
+	}
+
+	.s-hr{
+		border-bottom: 1px solid #bbb;
+		border-top: 1px solid #bbb;
+	}
+	.s-reng{
+		color:#bbb;
+		font-size: 16px;
+	}
+
+
+
+
+
+
+
+
+
+	/*Xeyalenin kodlari;*/
+
+
+
+	.hobbyicon{
+		 	width: 70px;
+		 	height: 70px;
+			color: #33B6CB;
+			border: solid 2px #33B6CB;
+			border-radius: 50%;
+			text-align: center;
+			margin: 0 auto;
+			font-size: 34px;
+		}
+
+	    .iconsx {
+		    display: inline-block;
+		    margin: 10px;
+		    text-align: center;
+		}
+
+		.referenceicon {
+			color: #33B6CB;
+			text-align: center;
+		}
+
+		
+		.fa-x {
+		margin-top: 15px;	
+		}
+
+		.lastbutton {
+			width: 215px;
+			height: 57px;
+			border: none;
+			font-size: 16px;
+			margin: 5px;
+		}
+

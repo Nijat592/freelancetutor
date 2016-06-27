@@ -2,9 +2,9 @@ jQuery(document).ready(function($) {
 	$(window).scroll(function() {
 		var MenuHeight=$(window).scrollTop();
 		if (MenuHeight>=40) {
-			$(".navbar").addClass('menu');
+			$(".navbar-index").addClass('menu');
 		}else{
-			$(".navbar").removeClass('menu');
+			$(".navbar-index").removeClass('menu');
 		}
 	});
 });
