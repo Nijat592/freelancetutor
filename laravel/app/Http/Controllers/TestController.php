@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
-use App\Http\Controllers\Controller;
 
-class SubjectCategoriesController extends Controller
+
+class TestController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,7 +16,7 @@ class SubjectCategoriesController extends Controller
      */
     public function index()
     {
-        return view('admin.categories.index');
+        return 'Temaa';
     }
 
     /**
@@ -26,7 +26,7 @@ class SubjectCategoriesController extends Controller
      */
     public function create()
     {
-        return view('admin.categories.create');
+        //
     }
 
     /**
@@ -48,7 +48,7 @@ class SubjectCategoriesController extends Controller
      */
     public function show($id)
     {
-        return $id;
+        //
     }
 
     /**
