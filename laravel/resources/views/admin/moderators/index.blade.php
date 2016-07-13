@@ -1,10 +1,6 @@
 @extends('layouts.admin')
 
-
 @section('content')
-
-{{"muellim"}}
-
  <!-- Main content -->
     <section class="content">
       <div class="row">

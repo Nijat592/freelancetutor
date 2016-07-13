@@ -11,14 +11,5 @@
 |
 */
 
-Route::get('/', 'TestController@bosluq');
 
-Route::get('/idareci', 'TestController@idareci');
-
-Route::get('/telebe', 'TestController@telebe');
-
-Route::get('/muellim', 'TestController@muellim');
-
-Route::get('/siyahi', 'TestController@siyahi');
-
-Route::get('/kateqoriya', 'TestController@kateqoriya');
+Route::resource('admin/categories', 'Admin\SubjectCategoriesController');
