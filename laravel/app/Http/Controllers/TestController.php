@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+
+
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -10,16 +12,14 @@ class TestController extends Controller
 {
     public function index()
     {
-      return view('main.index');
+      return view('front.index');
     }
-
     public function result()
     {
-      return view('result.index');
+      return view('front.result');
     }
-
-    public function profile()
+    public function detalis()
     {
-      return view('profile.index');
+      return view('front.detalis');
     }
 }
