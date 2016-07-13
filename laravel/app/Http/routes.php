@@ -11,8 +11,14 @@
 |
 */
 
-Route::get('/', 'TestController@index');
+Route::get('/', 'TestController@bosluq');
 
-Route::get('/result', 'TestController@result');
+Route::get('/idareci', 'TestController@idareci');
 
-Route::get('/profile', 'TestController@profile');
+Route::get('/telebe', 'TestController@telebe');
+
+Route::get('/muellim', 'TestController@muellim');
+
+Route::get('/siyahi', 'TestController@siyahi');
+
+Route::get('/kateqoriya', 'TestController@kateqoriya');
