@@ -1,0 +1,43 @@
+  <aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu">
+        <li class="header">MAIN NAVIGATION</li>
+   
+    
+
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-table"></i> <span>Istifadeciler</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="/idareci"><i class="fa fa-circle-o"></i> Idareciler</a></li>
+            <li><a href="/telebe"><i class="fa fa-circle-o"></i> Telebeler</a></li>
+            <li><a href="/muellim"><i class="fa fa-circle-o"></i> Muellimler</a></li>
+          </ul>
+        </li>
+
+
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-edit"></i> <span>Fennler</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="/kateqoriya"><i class="fa fa-circle-o"></i> Kateqoriyalar</a></li>
+            <li><a href="/siyahi"><i class="fa fa-circle-o"></i> Fenn siyahisi</a></li>
+          </ul>
+        </li>
+
+
+        
+      </ul>
+    </section>
+    <!-- /.sidebar -->
+  </aside>

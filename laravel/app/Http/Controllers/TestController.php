@@ -8,18 +8,30 @@ use App\Http\Requests;
 
 class TestController extends Controller
 {
-    public function index()
+    public function bosluq()
     {
-      return view('main.index');
+      return view('layouts.bosluq');
     }
+    public function idareci()
+    {
+      return view('layouts.idareci');
+    }
+    public function telebe()
+    {
+      return view('layouts.telebe');
+    }
+    public function muellim()
+    {
+      return view('layouts.muellim');
+    }
+     public function siyahi()
+    {
+      return view('layouts.siyahi');
+    }
+    public function kateqoriya()
+    {
+      return view('layouts.kateqoriya');
+    }
+    
 
-    public function result()
-    {
-      return view('result.index');
-    }
-
-    public function profile()
-    {
-      return view('profile.index');
-    }
 }
