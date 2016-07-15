@@ -13,3 +13,4 @@
 
 
 Route::resource('admin/categories', 'Admin\SubjectCategoriesController');
+Route::resource('admin/teachers', 'Admin\TeachersController');

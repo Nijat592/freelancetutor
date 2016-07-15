@@ -15,7 +15,7 @@ class CreateTimesTable extends Migration
         Schema::create('times', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('teacher_id')->unsigned();
-            $table->foreign('teacher_id')->references('id')->on('teachers');            
+            $table->foreign('teacher_id')->references('id')->on('teachers')->onDelete('cascade');            
             $table->time('time');
             $table->timestamps();
         });
