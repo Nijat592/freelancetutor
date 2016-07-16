@@ -14,8 +14,10 @@
 
 
 Route::resource('admin/categories', 'Admin\SubjectCategoriesController');
+Route::resource('admin/subjects', 'Admin\SubjectsController');
 Route::get('/', 'TestController@index');
 Route::get('/result', 'TestController@result');
 Route::get('/detalis', 'TestController@detalis');
+Route::get('/profil', 'TestController@profil');
 
 // Route::get('/profile', 'TestController@profile');
