@@ -562,3 +562,24 @@ footer {
 			font-size: 16px;
 			margin: 5px;
 		}
+
+		/*formlarin css-i*/
+
+		.marginTop72{
+			margin-top: 72px;
+		}
+
+		label{
+		font-size: 16px;
+			}
+
+		.marginTop72 .box-footer button {
+			background: #33B6CB;
+			letter-spacing:3px;
+			}
+
+		.marginTop72 .box-footer button:hover{
+			background: #2991A2;
+
+			}
+		/*formlarin css-i bitti*/
