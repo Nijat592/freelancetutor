@@ -1,6 +1,7 @@
 body {
 			margin: 0 auto;
 		}
+
 footer {
 			width:100%;
 			background:#26262a; 
@@ -562,3 +563,125 @@ footer {
 			font-size: 16px;
 			margin: 5px;
 		}
+
+
+
+
+
+
+/* Nicat => Login sehifesi modal burdan baslayir */
+
+.modal{
+	position: absolute;
+}
+
+.modal-title{
+	font-weight: bold;
+}
+
+.modal-header{
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #EEE;
+}
+
+.modal-header .close {
+    margin-top: -2px;
+}
+
+
+.modal-header button .close {
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+}
+
+.login-modal-or {
+    margin: 45px 0 25px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.login-modal-or > div {
+    border-top: 1px solid #DDD;
+    position: relative;
+    height: 14px;
+}
+
+.login-modal-or > div > span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 38px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+    text-transform: uppercase;
+    border: 1px solid #DDD;
+    background: #FFF;
+}
+
+.modal label {
+    font-size: 15px;
+    color: #424242;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin: 0 0 10px;
+    line-height: 1.2;
+}
+
+/*.checkbox-block label {
+    display: block;
+    color: #939393;
+    font-weight: 400;
+    font-size: 14px;
+}*/
+
+.login-box-wrapper .modal-title {
+    line-height: 1;
+    margin: 0;
+    text-transform: lowercase;
+    font-weight: 700;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.login-box-link-action {
+    text-align: right;
+}
+
+.loginBox{
+	color: #939393;
+	font-size: 14px;
+}
+
+.modal a {
+    color: #33B6CB;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.modal-footer{
+    background-color: #EEE;
+}
+
+/* Nicat => Login sehifesi modal burda bitir */
+
+
+
+
+/* Nicat => Tables */
+
+.marginTop72{
+	margin-top: 72px;
+}
