@@ -48,7 +48,7 @@ class SubjectCategoriesController extends Controller
      */
     public function show($id)
     {
-        //
+        return $id;
     }
 
     /**

@@ -6,32 +6,83 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
+
 class TestController extends Controller
 {
-    public function bosluq()
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
     {
-      return view('layouts.bosluq');
+        return 'Temaa';
     }
-    public function idareci()
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
     {
-      return view('layouts.idareci');
+        //
     }
-    public function telebe()
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request)
     {
-      return view('layouts.telebe');
+        //
     }
-    public function muellim()
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show($id)
     {
-      return view('layouts.muellim');
+        //
     }
-     public function siyahi()
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id)
     {
-      return view('layouts.siyahi');
+        //
     }
-    public function kateqoriya()
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, $id)
     {
-      return view('layouts.kateqoriya');
+        //
     }
-    
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
+    {
+        //
+    }
 
 }
