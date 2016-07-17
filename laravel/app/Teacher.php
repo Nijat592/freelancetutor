@@ -9,4 +9,8 @@ class Teacher extends Model
     protected $fillable = [
         'user_id', 'subject_id', 'city_id'
     ];
+
+    public function user(){
+        return $this->hasOne('App\User');
+    }
 }

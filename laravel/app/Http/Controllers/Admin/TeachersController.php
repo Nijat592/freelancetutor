@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+use App\User;
+use App\Teacher;
+
 class TeachersController extends Controller
 {
     /**
@@ -16,7 +19,10 @@ class TeachersController extends Controller
      */
     public function index()
     {
-        //
+        // return view('admin.teachers.index');
+
+        $muellimler = User::all();
+        return view('admin.teachers.index', compact('muellimler'));
     }
 
     /**
@@ -26,7 +32,7 @@ class TeachersController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.teachers.create');
     }
 
     /**
@@ -37,7 +43,7 @@ class TeachersController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**
