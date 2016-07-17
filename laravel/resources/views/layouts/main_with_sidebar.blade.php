@@ -2,18 +2,37 @@
 <html>
 	<head>
 		<title>Master</title>
-		<link rel="stylesheet" href="css/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" href="/css/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css">
-		<link rel="stylesheet" type="text/css" href="css/kamran.css">
+		<link rel="stylesheet" type="text/css" href="/css/kamran.css">
 	</head>
 	<body>
 		{{-- Header --}}
-		@include('partials.main_nav_transparent')
+		@include('partials.main_nav')
 		{{-- //Header --}}
 
 		{{-- Content --}}
-		@yield('content')
+		<div class="head"></div>
+		<div class="elave1">
+			<div class="container">
+				<ul>
+					<li><a href="#"><span>All Employers</span></a></li>
+					<li><span>Expedia</span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="sidebar col-md-3">
+					@include('partials.main_sidebar')
+				</div>
+
+				<div class='col-md-9'>
+					@yield('content')
+				</div>
+			</div>
+		</div>
 		{{-- //Content --}}
 
 		{{-- Footer --}}
@@ -28,8 +47,8 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
 		<script src="https://use.fontawesome.com/aeb8f274a4.js"></script>
-		<script src="js/jquery.js" type="text/javascript" charset="utf-8" async defer></script>
+		<script src="/js/jquery.js" type="text/javascript" charset="utf-8" async defer></script>
 		<script src="https://cdn.ckeditor.com/4.5.10/basic/ckeditor.js"></script>
-		<script src="js/main.js"></script>	
+		<script src="/js/main.js"></script>	
 </body>
 </html>

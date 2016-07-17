@@ -1,6 +1,5 @@
-@extends('sidebar/sidebar')
-@section('profile')
-<div class="col-md-9">
+@extends('layouts.main_with_sidebar')
+@section('content')
 	<div class="container-fluid">
 		<div class="procon row">
 			<div class="si1 col-md-12">
@@ -108,5 +107,4 @@
 			</form>
 		</div>
 	</div>
-</div>
 @endsection

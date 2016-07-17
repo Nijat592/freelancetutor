@@ -1,13 +1,7 @@
-@extends('layouts.layout')
+@extends('layouts.main_with_sidebar')
 
 <!-- section1 burda baslayir -->
 @section('content')
-    
-    	<div class="container marginTop72">
-	<div class="head"></div>
-		<div class="row">
-			<div class="col-md-3"></div>
-			<div class="col-md-7">
 				 <form>
 		              <div class="box-body">
 
@@ -58,11 +52,6 @@
 		                <button type="submit" class="btn btn-primary">SAVE</button>
 		              </div>
             	</form>
-			</div>
-		</div>
-		<div class=" row s-bosluq" style="height:50px"></div>
-	</div>
-
 @endsection
 
 	

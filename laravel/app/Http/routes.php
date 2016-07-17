@@ -11,49 +11,47 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
-
-Route::resource('admin/categories', 'Admin\SubjectCategoriesController');
-Route::resource('admin/subjects', 'Admin\SubjectsController');
-Route::get('/', 'TestController@index');
-Route::get('/result', 'TestController@result');
-Route::get('/detalis', 'TestController@detalis');
-Route::get('/register', 'RegisterController@index');
-
-Route::get('/', 'PagesController@index');
-Route::get('/formEducation', 'FormsController@education');
-Route::get('/formExperience', 'FormsController@experience');
-Route::get('/formSubject', 'FormsController@subject');
-Route::get('/profil', 'TestController@profil');
-Route::resource('admin/teachers', 'Admin\TeachersController');
-/*Route::get('/', 'TestController@index');
-Route::get('/result', 'TestController@result');
-Route::get('/detalis', 'TestController@detalis');*/
-
-Route::get('/', function() {
+Route::get('/', function(){
 	return view('front.index');
 });
 
-Route::get('/detail', function() {
-	return view('front.detalis');
+Route::get('/results', function(){
+	return view('front.results');
 });
 
-Route::get('/result', function() {
-	return view('front.result');
+Route::get('/details', function(){
+	return view('front.details');
 });
 
+Route::get('/register', function(){
+	return view('front.register');
+});
 
+Route::get('/profile', function(){
+	return view('front.profile');
+});
+
+Route::get('/profile/education/create', function(){
+	return view('front.edit_profile.create_education');
+});
+
+Route::get('/profile/experience/create', function(){
+	return view('front.edit_profile.create_experience');
+});
+
+Route::get('/profile/subject/create', function(){
+	return view('front.edit_profile.create_subject');
+});
 
 Route::get('/education', function() {
-	return view('education');
+	return view('front.profile.education');
 });
 
 Route::get('/experience', function() {
-	return view('experience');
+	return view('front.profile.experience');
 });
 
 Route::get('/subject', function() {
-	return view('subject');
+	return view('front.profile.subject');
 });
 
-// Route::get('/profile', 'TestController@profile');
