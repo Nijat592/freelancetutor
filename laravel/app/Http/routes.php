@@ -17,5 +17,10 @@ Route::resource('admin/categories', 'Admin\SubjectCategoriesController');
 Route::get('/', 'TestController@index');
 Route::get('/result', 'TestController@result');
 Route::get('/detalis', 'TestController@detalis');
+// Route::get('/register', 'resources/views/register/register');
+
+Route::get('/register', 'RegisterController@index');
+
+
 
 // Route::get('/profile', 'TestController@profile');

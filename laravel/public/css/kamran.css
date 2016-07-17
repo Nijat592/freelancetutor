@@ -562,3 +562,42 @@ footer {
 			font-size: 16px;
 			margin: 5px;
 		}
+
+/*register-form begin*/
+.register{
+	margin-top: 72px;
+	margin-bottom: 40px;
+}
+
+
+.xmainbox{
+	   background: white;
+	   border: 1px lightgrey solid;
+	}
+
+	.xheaderx {
+		background: #EEE;
+		line-height: 1px;
+		text-align: center;
+		height: 50px;
+		border: 1px lightgrey solid;
+	}
+
+	.xsecondlinex {
+		margin-top: 10px;
+	}
+
+	.xform-footerx {
+		background: #EEE;
+		margin-top: 10px;
+		height: 50px;
+		border: 1px lightgrey solid;
+	}
+	.xfooter-buttonx{
+		color: white;
+		margin-top: 11px;
+	}
+
+	.xcheckbox {
+		margin: 10px;
+	}
