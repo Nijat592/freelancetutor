@@ -35,10 +35,10 @@
 				<div class="col-md-3">
 					<div class="col-md-12 aq3">
 						<h3>newsletter</h3>
-						<p>Subsribe to get our latest updates and oeffers</p>
+						<p>Subsribe to get our latest updates and offers</p>
 						<form >
 							<div class="form-group inbut">
-								<input class="form-control emailin" placeholder="eneter your email" />
+								<input class="form-control emailin" placeholder="enter your email" />
 								<button class="btn btn-primary">subscribe</button>
 							</div>
 						</form>

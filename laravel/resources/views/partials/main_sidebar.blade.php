@@ -18,13 +18,13 @@
 	<div class="hr col-md-12"></div>
 	<div class="probtn col-md-12">
 		<a href="#" class="btn btn-sm btn-primary">POST JOB</a>
-		<a href="#" class="btn btn-sm btn-primary btn-inverse">CREAT RESUME</a>
+		<a href="#" class="btn btn-sm btn-primary btn-inverse">CREATE RESUME</a>
 	</div>
 	<div class="promenu list-group col-md-12">
-		<a href="#" class="list-group-item"><i class="fa fa-user" aria-hidden="true"></i><span>Profile</span></a>
-		<a href="#" class="list-group-item"><i class="fa fa-book" aria-hidden="true"></i><span>Dersler</span></a>
-		<a href="#" class="list-group-item"><i class="fa fa-university" aria-hidden="true"></i><span>Tehsil</span></a>
-		<a href="#" class="list-group-item"><i class="fa fa-calendar" aria-hidden="true"></i><span>Ish Tecrubesi</span></a>
-		<a href="#" class="list-group-item"><i class="fa fa-cog" aria-hidden="true"></i><span>Setting</span></a>
-		<a href="#" class="list-group-item"><i class="fa fa-sign-out" aria-hidden="true"></i><span>Logout</span></a>
+		<a href="#" class="list-group-item"><i class="fa fa-user" aria-hidden="true"></i><span>Profil</span></a>
+		<a href="#" class="list-group-item"><i class="fa fa-book" aria-hidden="true"></i><span>Dərslər</span></a>
+		<a href="#" class="list-group-item"><i class="fa fa-university" aria-hidden="true"></i><span>Təhsil</span></a>
+		<a href="#" class="list-group-item"><i class="fa fa-calendar" aria-hidden="true"></i><span>İş Təcrübəsi</span></a>
+		<a href="#" class="list-group-item"><i class="fa fa-cog" aria-hidden="true"></i><span>Tənzimləmə</span></a>
+		<a href="#" class="list-group-item"><i class="fa fa-sign-out" aria-hidden="true"></i><span>Çıxış</span></a>
 	</div>

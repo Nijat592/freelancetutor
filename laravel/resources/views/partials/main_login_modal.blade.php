@@ -45,7 +45,7 @@
 					</div>
 					<div class="col-sm-12 col-md-12">
 						<div class="login-box-box-action loginBox">
-							<span>No account?</span> <a data-toggle="modal" href="#registerModal">Register</a>
+							<span>No account?</span> <a data-toggle="modal" href="/register">Register</a>
 						</div>
 					</div>
 				</div>

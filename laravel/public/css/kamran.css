@@ -508,7 +508,6 @@ footer {
 
 
 	.s-btn{
-		background: #33B6CB;
 		border-style: none;
 		padding: 10px 15px;
 		border-radius: 5px;
@@ -519,11 +518,10 @@ footer {
 	}
 	.s-btn:hover{
 		text-decoration: none;
-		background:#FFA4B3;
 		color: white;
 	}
 	.s-btn:hover a{
-			color: white;
+		color: white;
 	}
 
 	.s-hr{
@@ -536,39 +534,39 @@ footer {
 	}
 	/*Xeyalenin kodlari;*/
 	.hobbyicon{
-		 	width: 70px;
-		 	height: 70px;
-			color: #33B6CB;
-			border: solid 2px #33B6CB;
-			border-radius: 50%;
-			text-align: center;
-			margin: 0 auto;
-			font-size: 34px;
-		}
+	 	width: 70px;
+	 	height: 70px;
+		color: #33B6CB;
+		border: solid 2px #33B6CB;
+		border-radius: 50%;
+		text-align: center;
+		margin: 0 auto;
+		font-size: 34px;
+	}
 
-	    .iconsx {
-		    display: inline-block;
-		    margin: 10px;
-		    text-align: center;
-		}
+    .iconsx {
+	    display: inline-block;
+	    margin: 10px;
+	    text-align: center;
+	}
 
-		.referenceicon {
-			color: #33B6CB;
-			text-align: center;
-		}
+	.referenceicon {
+		color: #33B6CB;
+		text-align: center;
+	}
 
 
-		.fa-x {
-		margin-top: 15px;
-		}
+	.fa-x {
+	margin-top: 15px;
+	}
 
-		.lastbutton {
-			width: 215px;
-			height: 57px;
-			border: none;
-			font-size: 16px;
-			margin: 5px;
-		}
+	.lastbutton {
+		width: 200px;
+		height: 57px;
+		border: none;
+		font-size: 16px;
+		margin: 5px;
+	}
 
 
 /*register-form begin*/
