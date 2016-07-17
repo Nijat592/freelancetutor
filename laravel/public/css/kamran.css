@@ -3,7 +3,7 @@ body {
 		}
 footer {
 			width:100%;
-			background:#26262a; 
+			background:#26262a;
 		}
 		.footertop{
 			padding-top		:60px;
@@ -35,21 +35,21 @@ footer {
 			height: 93px;
 		}
 		.ulleft{
-				
-   				width: 50%;	
+
+   				width: 50%;
    				float: left;
    				margin-top: 20px;
-   				
-   				letter-spacing:1px;	
-   				padding: 2px;			 		
+
+   				letter-spacing:1px;
+   				padding: 2px;
    		}
    		.ulright{
-				
-   				width: 50%;	
+
+   				width: 50%;
    				float: right;
    				margin-top: 20px;
-   				letter-spacing:1px;	
-   				padding: 2px;			 		
+   				letter-spacing:1px;
+   				padding: 2px;
    		}
    		.footertop .siyahi .aq2  div ul{
 			list-style: none;
@@ -90,7 +90,7 @@ footer {
     		padding-right: 100px;
 			color: white;
 			font-size: 15px;
-			
+
 		}
 
 		.aq3 button{
@@ -103,7 +103,7 @@ footer {
                 padding-bottom: 10px;
                 padding-left: 25px;
                  padding-right: 25px;
-                 background-color: #33B6CB;	
+                 background-color: #33B6CB;
 
 		}
 		.aq3 button:hover{
@@ -116,19 +116,19 @@ footer {
 			  -webkit-box-shadow: inset 0 1px 1px #26262a, 0 0 8px #26262a;
           	box-shadow: inset 0 1px 1px #26262a, 0 0 8px #26262a;
 		}
-		
+
 		.footerbottom{
 			background: #212124;
 			padding-top: 30px;
 			padding-bottom: 20px;
 		}
-		
+
 		.cook ul{
 			text-align: center;
 		}
 		.cook ul li a{
 			color:#929280;
-			
+
 		}
 		.cook ul li{
 			display: inline-block;
@@ -162,7 +162,7 @@ footer {
 			padding-bottom: 25px;
 			padding-top: 50px;
 			text-align: center;
-			
+
 			letter-spacing:2px;
 
 		}
@@ -227,7 +227,7 @@ footer {
 	}
 	.spanb{
 		padding-bottom: 50px;
-	}	
+	}
 	.lupa .container :first-child span {
 		font-size:34px;
 		font-weight: 700;
@@ -322,22 +322,22 @@ footer {
 	background-color: transparent;
 }
 .home li a:focus{
-	background-color: transparent;	
+	background-color: transparent;
 }
-.login button{ 
+.login button{
 	margin-top: 18px;
 	background-color: transparent;
 	color: white;
 	font-size: 11px;
-	padding: 4px 10px;	
+	padding: 4px 10px;
 	font-weight: bold;
-	border-radius: 2px;			
+	border-radius: 2px;
 }
 .sec1{
 	width: 100%;
 	height: 600px;
 	background-image:url('../image/cover.jpg');
-	background-size: cover; 
+	background-size: cover;
 	background-position: center;
 }
 .menutext h1{
@@ -417,7 +417,7 @@ footer {
 
 /*section3 */
 .jobs {
-	border: 1px solid #cccccc;	
+	border: 1px solid #cccccc;
 }
 .jobs div{
 	padding-top: 20px;
@@ -550,9 +550,9 @@ footer {
 			text-align: center;
 		}
 
-		
+
 		.fa-x {
-		margin-top: 15px;	
+		margin-top: 15px;
 		}
 
 		.lastbutton {
@@ -601,3 +601,23 @@ footer {
 	.xcheckbox {
 		margin: 10px;
 	}
+		/*formlarin css-i*/
+
+		.marginTop72{
+			margin-top: 72px;
+		}
+
+		label{
+		font-size: 16px;
+			}
+
+		.marginTop72 .box-footer button {
+			background: #33B6CB;
+			letter-spacing:3px;
+			}
+
+		.marginTop72 .box-footer button:hover{
+			background: #2991A2;
+
+			}
+		/*formlarin css-i bitti*/
