@@ -1,4 +1,4 @@
-<nav class="navbar menu_solid navbar-fixed-top">
+<nav class="{{ isset($class) ? $class : 'menu_solid' }} navbar navbar-fixed-top">
 	<div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">

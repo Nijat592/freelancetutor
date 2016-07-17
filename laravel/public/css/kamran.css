@@ -375,6 +375,7 @@ footer {
 	border: 1px solid transparent;
 	padding: 10px 12px;
 	font-size: 18px;
+	width: 100%;
 
 }
 .search div form input:focus{
@@ -943,3 +944,14 @@ border-color:gray;
 .marginTop72{
 	margin-top: 72px;
 }
+
+/* Bootstrap Fix, Fəriddən Bonus))*/
+
+.modal-open {
+  position: fixed;
+  overflow: scroll !important;
+  width: 100% !important;
+  padding-right: 0!important;
+}
+
+/* Bonusun Sonu, Gənclər)) */

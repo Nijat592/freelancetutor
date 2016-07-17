@@ -4,12 +4,12 @@
 			<div class="col-md-12 footertop">
 				<div class="col-md-9 siyahi">
 					<div class="col-md-4 aq1">
-						<h3>about HaNgan</h3>
-						<p>Sudden looked elinor off gay estate nor silent. Son read such next see the rest two. Was use extent old entire sussex...</p>
-						<button type="button" class="btn btn-secondary">Reade more</button>
+						<h3>haqqımızda</h3>
+						<p>Sadəcə çox bekar idik və bir yerdə nəsə işləyirik, çox adam inanmasa da bunu edirik..</p>
+						<button type="button" class="btn btn-secondary">Ətraflı</button>
 					</div>
 					<div class="col-md-5 aq2">
-						<h3>quick links</h3>
+						<h3>linklər</h3>
 						<div class="ulleft">
 							<ul>
 								<li><a href="#">Local Jobs</a></li>
@@ -34,15 +34,14 @@
 				</div>
 				<div class="col-md-3">
 					<div class="col-md-12 aq3">
-						<h3>newsletter</h3>
-						<p>Subsribe to get our latest updates and offers</p>
+						<h3>abunə ol</h3>
+						<p>Yenilikləri ən birinci sən al</p>
 						<form >
 							<div class="form-group inbut">
-								<input class="form-control emailin" placeholder="enter your email" />
-								<button class="btn btn-primary">subscribe</button>
+								<input class="form-control emailin" placeholder="emaili daxil edin" />
+								<button class="btn btn-primary">abunə ol</button>
 							</div>
 						</form>
-						<p>*** Don't worry, we wont spam you!</p>
 					</div>
 				</div>
 			</div>
@@ -52,7 +51,7 @@
 		<div class="col-md-12 footerbottom" >
 			<div class="container">
 				<div class="col-md-4">
-					<p style="color: #929280;">© Copyright 2016 HaNgan</p>
+					<p style="color: #929280;">© Copyright 2016 Manslar</p>
 				</div>
 				<div class="col-md-4 cook">
 					<ul>

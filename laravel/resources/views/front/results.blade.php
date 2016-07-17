@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.main_solid_nav')
 <link rel="stylesheet" type="text/css" href="css/style.css">
 @section('content')
 <div class="head"></div>
@@ -8,12 +8,12 @@
 			<form>
 				<div class="col-md-2">
 					<div class="form-group form-lg">
-						<span class="labeling">Search a job</span>
+						<span class="labeling">Fənn axtar</span>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="form-group form-lg">
-						<input type="text" class="form-control" placeholder="Job title. Ex: Engineering">
+						<input type="text" class="form-control" placeholder="Məs: Riyaziyyat">
 					</div>
 				</div>
 				
@@ -30,40 +30,40 @@
 			<div class="row quick_search">
 				<div class="col-md-10 col-md-offset-1">
 					<ul class="quick-search">
-						<li><span>Quick Searches: </span></li>
-						<li><a href="#">Graduate jobs</a></li>
-						<li><a href="#">$50k+ jobs</a></li>
-						<li><a href="#">Work at home</a></li>
-						<li><a href="#">Immediate start</a></li>
-						<li><a href="#">IT & Telecom</a></li>
+						<li><span>Populyar sorğular: </span></li>
+						<li><a href="#">Riyaziyyat</a></li>
+						<li><a href="#">Fizika</a></li>
+						<li><a href="#">Web manslıq</a></li>
+						<li><a href="#">Toy manslıqı</a></li>
+						<li><a href="#">Ali manslıq</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- ========================================= Result Search ends =========================================-->
-<!-- ========================================= Result Breadcrumbs starts ========================================= -->
+<!-- Result Search ends -->
+<!-- Result Breadcrumbs starts  -->
 <div class="resultBreadcrumbs">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<ol class="breadcrumb">
-					<li><a href="#">All jobs</a></li>
-					<li><span>Engineering</span></li>
+					<li><a href="#">Bütün fənnlər</a></li>
+					<li><span>Kateqoriyalar</span></li>
 				</ol>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- ========================================= Result Breadcrumbs ends ========================================= -->
-<!-- ========================================= Result Filter starts ========================================= -->
+<!--  Result Breadcrumbs ends -->
+<!-- Result Filter starts = -->
 <div class="resultFilter">
 	<div class="container">
-		<h3>We found 2,584 engineering jobs</h3><hr>
+		<h3>Sorğuya uyğun 13 müəllim tapıldı</h3><hr>
 		<div class="row topRow">
 			<div class="col-md-2">
-				<label>Sort by:</label>
+				<label>Çeşidlə:</label>
 				<select name="colors" class="selectpicker form-control">
 					<option><a href="#">Relavent</a></option>
 					<option><a href="#">Date Posted(newest to oldest)</a></option>
@@ -71,7 +71,7 @@
 				</select>
 			</div>
 			<div class="col-md-2">
-				<label>Date Added:</label>
+				<label>Zamana görə:</label>
 				<select  name="colors" class="selectpicker form-control">
 					<option><a href="#">Anytime</a></option>
 					<option><a href="#">Last 24 hours</a></option>
@@ -82,7 +82,7 @@
 				</select>
 			</div>
 			<div class="col-md-2">
-				<label>Job Title:</label>
+				<label>Ada görə:</label>
 				<select multiple name="colors" multiple data-actions-box="true" class="selectpicker form-control">
 					<option><a href="#">.Net Developer</a></option>
 					<option><a href="#">Part Time Merchandiser</a></option>

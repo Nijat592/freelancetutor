@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		{{-- Header --}}
-		@include('partials.main_nav_transparent')
+		@include('partials.main_nav')
 		{{-- //Header --}}
 
 		{{-- Content --}}
