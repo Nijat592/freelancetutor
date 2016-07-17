@@ -38,7 +38,9 @@
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
+
 		@yield('content')
+
 		<footer>
 			<div class="container">
 				<div class="row">
