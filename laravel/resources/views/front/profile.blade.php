@@ -61,13 +61,13 @@
 					<div class="row">
 						<div class="bform col-md-3">
 							<div class="form-group ">
-								<label>Unvan</label>
+								<label>Ünvan</label>
 								<input type="text"  class="form-control" placeholder="Unvan">
 							</div>
 						</div>
 						<div class="bform col-md-3">
 							<div class="form-group ">
-								<label>Dogum Tarixi</label>
+								<label>Doğum Tarixi</label>
 								<input type="date"  class="form-control" placeholder="Unvan">
 							</div>
 						</div>
@@ -76,15 +76,15 @@
 						<div class="bform col-md-3">
 							<div class="form-group ">
 								<div class="form-group ">
-									<label>Seher</label>
+									<label>Şəhər</label>
 									<div class="dropdown">
 										<button class="seherdrop btn btn-primary dropdown-toggle"
 										type="button" id="dropdownMenu1" data-toggle="dropdown"
 										aria-haspopup="true" aria-expanded="false">
-										Sehrler
+										Şəhərlər
 										</button>
 										<ul class="dropdown-menu">
-											<li><a href="#">Berde</a></li>
+											<li><a href="#">Bərdə</a></li>
 											<li><a href="#">Qax</a></li>
 											<li><a href="#">Qazax</a></li>
 										</ul>

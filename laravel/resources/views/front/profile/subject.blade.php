@@ -1,7 +1,7 @@
 @extends('layouts.main_with_sidebar')
 <!-- section1 burda baslayir -->
 @section('content')
-    <a href=""><button type="button" class="btn btn-info">Add New</button></a><br><br>
+    <a href="/profile/subject/create"><button type="button" class="btn btn-info">Add New</button></a><br><br>
       <table class="table table-bordered">
         <thead>
           <tr>

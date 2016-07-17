@@ -253,6 +253,10 @@ ul.meta-list li span {
    margin-bottom: 3px;
 }
 
+.sub-category a:hover{
+   text-decoration: none;
+}
+
 .resultJobLists button{
    border-radius: 3px;
    font-size: 11px;
@@ -336,7 +340,6 @@ ul.meta-list li span {
    font-size: 15px;
 }
 
-
 .resultSideBar .top .content .text{
    color: #33B6CB !important;
    font-weight: 700;
@@ -360,9 +363,14 @@ ul.meta-list li span {
 }
 
 .resultSideBar .top:hover{
+   text-decoration: none;
    box-shadow: 0px 0px 9px -2px rgba(0, 0, 0, 0.37);
 }
 
+a:hover, a:focus {
+    color: #23527c;
+    text-decoration: none !important; 
+}
 
 .resultSideBar h4.sidebar-title {
    text-transform: uppercase;

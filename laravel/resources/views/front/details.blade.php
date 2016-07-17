@@ -30,22 +30,22 @@
 		</div>
 
 		<div class="row text-center">
-			<button class="s-btn" type="button" >RECRUITIME ME</button>
+			<button class="s-btn btn btn-info" type="button" >RECRUITIME ME</button>
 		</div>
 
 		<div class=" row s-bosluq" style="height:30px"></div>
 
 		<div class="row s-hr ">
 			<div class="col-md-3 col-sm-3  col-xs-3">
-				<h3>Dogum Tarixi:</h3>
+				<h3>Doğum Tarixi:</h3>
 				<p class="s-reng">24/02/1993</p>
 			</div>
 			<div class="col-md-3 col-sm-3  col-xs-3">
-				<h3>Yasi:</h3>
-				<p  class="s-reng">23 yasi var</p>
+				<h3>Yaşı:</h3>
+				<p  class="s-reng">23 yaşı var</p>
 			</div>
 			<div class="col-md-3 col-sm-3  col-xs-3">
-				<h3>Tehsili:</h3>
+				<h3>Təhsili:</h3>
 				<p  class="s-reng">B.Eng in Computer</p>
 			</div>
 			<div class="col-md-3 col-sm-3  col-xs-3">
