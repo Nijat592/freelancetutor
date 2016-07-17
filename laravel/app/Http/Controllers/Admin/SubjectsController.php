@@ -16,8 +16,9 @@ class SubjectsController extends Controller
      */
     public function index()
     {
-        //
-    }
+
+       return view('admin.subjects.index');
+   }
 
     /**
      * Show the form for creating a new resource.
@@ -26,7 +27,7 @@ class SubjectsController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.subjects.create');
     }
 
     /**
@@ -37,7 +38,7 @@ class SubjectsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
     }
 
     /**
@@ -59,7 +60,7 @@ class SubjectsController extends Controller
      */
     public function edit($id)
     {
-        //
+         return view('admin.subjects.edit');
     }
 
     /**

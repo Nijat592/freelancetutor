@@ -1,10 +1,12 @@
 jQuery(document).ready(function($) {
+	
+	
 	$(window).scroll(function() {
 		var MenuHeight=$(window).scrollTop();
 		if (MenuHeight>=40) {
-			$(".navbar-index").addClass('menu');
+			$(".navbar").addClass('menu');
 		}else{
-			$(".navbar-index").removeClass('menu');
+			$(".navbar").removeClass('menu');
 		}
 	});
 
@@ -83,4 +85,7 @@ jQuery(document).ready(function($) {
 	    });
 
 	});
+	CKEDITOR.replace( 'ckeditor',{
+		uiColor: '#33B6CB' 
+	} );
 });
