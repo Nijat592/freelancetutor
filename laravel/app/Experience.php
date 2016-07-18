@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Time extends Model
+class Experience extends Model
 {
     protected $fillable = [
-        'teacher_id', 'time'
+        'teacher_id', 'company', 'position', 'years'
     ];
 }

@@ -12,7 +12,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password', 'surname', 'birth_date', 'type'
+        'status', 'type', 'address', 'email', 'phone', 'bio', 'password', 'name', 'surname', 'birth_date', 'profile_img', 'city_id'
     ];
 
     /**
@@ -24,8 +24,4 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-
-    public function teacher(){
-        return $this->hasOne('App\Teacher');
-    }
 }
