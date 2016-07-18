@@ -16,8 +16,7 @@ class CreateSubjectsTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->integer('category_id')->unsigned();
-            $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
-            $table->integer('subject_cost')->unsigned();
+            $table->foreign('category_id')->references('id')->on('categories');
             $table->timestamps();
         });
     }

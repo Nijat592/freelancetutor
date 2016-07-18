@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Day extends Model
+class Admin extends Model
 {
     protected $fillable = [
-        'teacher_id', 'weekday'
+        'username', 'password'
     ];
 }
