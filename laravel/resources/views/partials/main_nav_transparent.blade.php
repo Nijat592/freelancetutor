@@ -21,10 +21,12 @@
 				<li><a href="/subject">Subject</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right login">
-				<!-- <li><a href="#">Login</a></li>
-				<li><a href="#">Register</a></li> -->
-				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#login">Login</button>
-				<a href="/register"><button type="button" class="btn btn-info">Register</button></a>
+				@if(Auth::guest())
+					<button type="button" class="btn btn-info" data-toggle="modal" data-target="#login">Login</button>
+					<a href="/register_page"><button type="button" class="btn btn-info">Register</button></a>
+				@else
+					<a href="/logout"><button type="button" class="btn btn-info">{{ Auth::user()->name }}</button></a>
+				@endif
 			</ul>
 			</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->

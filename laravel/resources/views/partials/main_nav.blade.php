@@ -21,11 +21,44 @@
 				<li><a href="/subject">Subject</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right login">
-				<!-- <li><a href="#">Login</a></li>
+				{{-- <!-- <li><a href="#">Login</a></li>
 				<li><a href="#">Register</a></li> -->
 				<button type="button" class="btn btn-default" data-toggle="modal" data-target="#login">Login</button>
-				<a href="/register"><button type="button" class="btn btn-default">Register</button></a>
+				<a href="/register"><button type="button" class="btn btn-default">Register</button></a> --}}
+				@if(Auth::guest())
+				<!-- Qonaq -->
+				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#login">Login</button>
+				<a href="/register_page"><button type="button" class="btn btn-info">Register</button></a>
+				<!-- Qonaq -->
+				@else
+				<!-- Login Olunmush -->
+
+				<div class="form-group ">
+					<div class="dropdown">
+						<button class="seherdrop btn btn-primary dropdown-toggle"
+						type="button" id="dropdownMenu1" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+						{{ Auth::user()->name.((Auth::user()->type == 0) ? " müəllim" : "")}}
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="/profile">Profil</a></li>
+							<li><a href="/logout">Çıxış</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<!-- <a href="/logout"><button type="button" class="btn btn-info">
+					{{-- @if(Auth::user()->type == 0)
+					{{Auth::user()->name." müəllim"}}
+					@else
+					{{Auth::user()->name}}
+					@endif --}}
+					
+					
+				</button></a> -->
+				<!-- Login Olunmush -->
+				@endif
 			</ul>
 			</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
-</nav>
+		</nav>

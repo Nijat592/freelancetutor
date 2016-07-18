@@ -23,7 +23,7 @@ Route::get('/details', function(){
 	return view('front.details');
 });
 
-Route::get('/register', function(){
+Route::get('/register_page', function(){
 	return view('front.register');
 });
 
@@ -55,3 +55,7 @@ Route::get('/subject', function() {
 	return view('front.profile.subject');
 });
 
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
