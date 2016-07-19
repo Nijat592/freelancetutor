@@ -107,10 +107,15 @@ footer {
                  background-color: #33B6CB;
 
 		}
+
+		.btn:hover, .btn:focus, .btn:active, .btn:active:focus {
+           -webkit-box-shadow: none;
+   			box-shadow: none;
+    		outline: none;
+		}
 		.aq3 button:hover{
 			background-color: #2991A2;
 		}
-
 		.emailin:focus{
 			border-color:#26262a !important;
 			  outline: 0;
