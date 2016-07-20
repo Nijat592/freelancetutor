@@ -31,9 +31,7 @@ Route::get('/profile', function(){
 	return view('front.profile');
 });
 
-Route::get('/profile/education/create', function(){
-	return view('front.edit_profile.create_education');
-});
+
 
 Route::get('/profile/experience/create', function(){
 	return view('front.edit_profile.create_experience');
@@ -43,9 +41,9 @@ Route::get('/profile/subject/create', function(){
 	return view('front.edit_profile.create_subject');
 });
 
-Route::get('/education', function() {
-	return view('front.profile.education');
-});
+Route::resource('/education', 'EducationsController');
+Route::get('/education/{education}/delete', 'EducationsController@destroy');
+
 
 Route::get('/experience', function() {
 	return view('front.profile.experience');
