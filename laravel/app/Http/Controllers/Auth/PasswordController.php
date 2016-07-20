@@ -4,7 +4,8 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
-
+use App\User;
+use Request;
 class PasswordController extends Controller
 {
     /*
@@ -29,4 +30,25 @@ class PasswordController extends Controller
     {
         $this->middleware('guest');
     }
+
+
+    public function changepassword(Request $request)
+    { 
+
+        return "test";
+        $user = Auth::user();
+        return $user;
+        $pass=$request->first();
+        $confirmpass=$request->last();
+
+
+        if($pass==$confirmpass)
+        {
+        $user->password=bcrypt($pass);
+        // bcrypt($user->password);
+        $user->save();
+        }
+
+    }
+
 }

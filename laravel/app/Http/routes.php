@@ -56,6 +56,14 @@ Route::get('/subject', function() {
 });
 
 
+Route::get('/changepassword', function() {
+	return view('front.profile.changepassword');
+});
+Route::post('/changepassword','Auth\PasswordController@changepassword');
+
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+
+Route::post('/resetPassword', 'HomeController@changepassword');
