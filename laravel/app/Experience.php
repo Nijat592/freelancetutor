@@ -6,7 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Experience extends Model
 {
+	protected $table    ="experiences";
     protected $fillable = [
-        'teacher_id', 'company', 'position', 'years'
+        'user_id', 'company', 'position', 'years'
     ];
+
+
+    public function user()
+	{
+    	return $this->belongsTo('App\User');
+	}
 }
