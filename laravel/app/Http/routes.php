@@ -51,11 +51,23 @@ Route::get('/experience', function() {
 	return view('front.profile.experience');
 });
 
+
+
 Route::get('/subject', function() {
 	return view('front.profile.subject');
 });
 
 
+
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+
+
+Route::get('/experience/edit/{id}', 'ExperiencesController@edit');
+Route::get('/experience/create', 'ExperiencesController@create');
+Route::post('/experience/{id}', 'ExperiencesController@update');
+Route::get('/experience/{id}', 'ExperiencesController@destroy');
+
+Route::resource('/experience', 'ExperiencesController');

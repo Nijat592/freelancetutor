@@ -5,7 +5,7 @@
 				 <form>
 		              <div class="box-body">
 
-		              	<label>Subject Name</label>
+		              	<label>Subject</label>
 		                <div class="row">
 		                	<div class="col-md-6">
 			                	<select class="selectpicker form-control" >
@@ -16,7 +16,7 @@
 		                	</div>
 		                	<div class="col-md-6">
 		                		<div  class="form-group">
-			                		<input type="text" name="subject" class="form-control" placeholder="Daxil edin">
+			                		<input type="text" name="subject" class="form-control" placeholder="Subject Name">
 			                	</div>
 		                	</div>
 		                </div>
@@ -30,17 +30,10 @@
 
 		                <label>Cost</label>
 		                <div class="row">
-		                	<div class="col-md-6">
+		                	<div class="col-md-12">
 			                	<div  class="form-group">
 			                		<input type="number" name="cost" class="form-control">
 			                	</div>
-		                	</div>
-		                	<div class="col-md-6">
-		                		<select class="selectpicker form-control" >
-									<option value="0">Qiymet</option>
-									<option value="1">AZN</option>
-									<option value="3">USD</option>
-								</select>
 		                	</div>
 		                </div>
 		                <div class="form-group">

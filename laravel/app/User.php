@@ -24,4 +24,9 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+    public function experinces()
+    {
+        return $this->hasMany('App\Experience');
+    }
+
 }
