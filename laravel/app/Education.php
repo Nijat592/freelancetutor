@@ -9,4 +9,9 @@ class Education extends Model
     protected $fillable = [
         'teacher_id', 'faculty', 'university', 'begin', 'end', 'description'
     ];
+
+    public function users()
+    {
+    	return $this-hasMany('App\User');
+    }
 }
