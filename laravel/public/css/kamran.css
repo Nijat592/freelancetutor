@@ -6,6 +6,47 @@ footer {
 			width:100%;
 			background:#26262a;
 		}
+	
+		.searchbuttondrop{
+			background-color:transparent !important;
+			border-color:transparent !important;
+			color:darkgray;
+			letter-spacing:1px;
+			font-weight:bold;
+			margin-top:6px;
+			font-size:16px;
+			width:250px;
+			padding: 7px;
+			border:none !important;
+
+		}
+		.searchbuttondrop:active{
+			outline: none;
+		}
+		.searchbuttondrop:focus{
+			outline: none;
+		}
+		.searchbuttondrop:hover{
+			outline: none;
+		}
+		.searchbuttondrop:visited{
+			outline: none;
+		}
+
+	
+		
+		.indexsearch{
+			position:absolute;
+			left:95%;
+			top:9px;
+			color:white;
+			background-color:transparent;
+			border-color:transparent;
+		}
+		.indexsearch:hover{
+			color:white;
+		}
+
 		.footertop{
 			padding-top		:60px;
 			padding-bottom	:50px;

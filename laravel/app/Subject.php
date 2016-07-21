@@ -9,4 +9,5 @@ class Subject extends Model
     protected $fillable = [
        'title', 'category_id'
     ];
+    
 }

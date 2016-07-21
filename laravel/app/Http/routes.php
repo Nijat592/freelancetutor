@@ -9,12 +9,11 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::get('/', function(){
-	return view('front.index');
-});
-Route::get('/results', function(){
-	return view('front.results');
-});
+// Route::get('/', function(){
+// 	return view('front.index');
+// });
+Route::get('/results','ResultController@index');
+
 Route::get('/details', function(){
 	return view('front.details');
 });
@@ -28,9 +27,6 @@ Route::resource('/profile', 'ProfileEditController');
 Route::patch('/profile/edit','ProfileEditController@editProfile');
 // file update uchun deneme
 // Route::put('/profile/edit','ProfileEditController@update');
-
-
-
 Route::get('/profile/education/create', function(){
 	return view('front.edit_profile.create_education');
 });
@@ -51,3 +47,7 @@ Route::get('/subject', function() {
 });
 Route::auth();
 Route::get('/home', 'HomeController@index');
+
+Route::get('/','CityController@index');
+
+Route::post('/','CityController@submit');

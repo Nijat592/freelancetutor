@@ -22,19 +22,19 @@
 		</div>
 		<div class="col-md-4"></div>
 		<form class="form-inline" method="post" action="{{url('profile/'.Auth::user()->id)}}" >
-		{{-- enctype="multipart/form-data" --}}
-		{{-- enctype="apply/multiple_upload" --}}
-				{{csrf_field()}}
-				{{method_field('patch')}}
-		<div class=" col-md-12">
-			<label  id="tiggerUpload" for="photoupload" class="btnas btn btn-primary">BROWSE</label>
-			<input type="file" id="photoupload" name="profile_img" class="hidden">
-		</div>
-		<div class="col-md-12">
-			<span >** photo must not bigger than 250kb</span>
-		</div>
-		<div class="col-md-12">
-			
+			{{-- enctype="multipart/form-data" --}}
+			{{-- enctype="apply/multiple_upload" --}}
+			{{csrf_field()}}
+			{{method_field('patch')}}
+			<div class=" col-md-12">
+				<label  id="tiggerUpload" for="photoupload" class="btnas btn btn-primary">BROWSE</label>
+				<input type="file" id="photoupload" name="profile_img" class="hidden">
+			</div>
+			<div class="col-md-12">
+				<span >** photo must not bigger than 250kb</span>
+			</div>
+			<div class="col-md-12">
+				
 				<div class="row">
 					<div class="bform col-md-3">
 						<div class="form-group ">
@@ -79,23 +79,26 @@
 				</div>
 				<div class="row">
 					<div class="bform col-md-3">
-						<div class="form-group ">
-							<div class="form-group ">
-								<label>Şəhər</label>
-								<div class="dropdown">
-									<button class="seherdrop btn btn-primary dropdown-toggle"
-									type="button" id="dropdownMenu1" data-toggle="dropdown"
-									aria-haspopup="true" aria-expanded="false">
-									Şəhərlər
-									</button>
-									<ul class="dropdown-menu">
-										<li><a href="#">Bərdə</a></li>
-										<li><a href="#">Qax</a></li>
-										<li><a href="#">Qazax</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
+						
+						@if(Auth::user()->city_id)
+						<select class="searchbuttondrop">
+							@foreach($city as $cities)
+							<option value="{{$cities->id}}" 
+							@if($cities->id==Auth::user()->city_id)
+							selected
+							@endif 
+							 >{{$cities->title  }}</option>
+							@endforeach
+						</select>
+						@else
+						<select name="city"  class="searchbuttondrop">
+							<option value="Seher secin" >Seçin</option>
+							@foreach($city as $cities)
+							<option value="{{$cities->id}}" >{{$cities->title  }}</option>
+							@endforeach
+						</select>
+						@endif
+						
 					</div>
 				</div>
 				<div class=" ck col-md-12">
