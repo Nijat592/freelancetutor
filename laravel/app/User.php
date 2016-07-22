@@ -24,6 +24,7 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+<<<<<<< HEAD
 
     public function subjects(){
 
@@ -40,5 +41,12 @@ class User extends Authenticatable
 
         return $this->belongsToMany('App\Education');
     }
+=======
+    public function educations ()
+    {
+        return $this-belongsTo('App\Education');
+    }
+
+>>>>>>> 310fd2413b0d1ac4d804cc7c818193065f683eb7
 }
 
