@@ -2,8 +2,8 @@
 	<div class="pro col-md-12">
 		<div class="col-md-3"></div>
 		<div class="proshekil col-md-6">
-			<div>
-				<img src="/image/mans.jpg">
+			<div >
+				<img src="uploadimage/{{Auth::user()->profile_img}}">
 			</div>
 		</div>
 		<div class="col-md-3">
@@ -29,5 +29,5 @@
 		<a href="#" class="list-group-item"><i class="fa fa-calendar" aria-hidden="true"></i><span>İş Təcrübəsi</span></a>
 		@endif
 		<a href="#" class="list-group-item"><i class="fa fa-cog" aria-hidden="true"></i><span>Tənzimləmə</span></a>
-		<a href="#" class="list-group-item"><i class="fa fa-sign-out" aria-hidden="true"></i><span>Çıxış</span></a>
+		<a href="/" class="list-group-item"><i class="fa fa-sign-out" aria-hidden="true"></i><span>Çıxış</span></a>
 	</div>

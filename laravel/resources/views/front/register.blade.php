@@ -1,8 +1,6 @@
 @extends('layouts.main_solid_nav')
 <!-- section1 burda baslayir -->
 @section('content')
-
-
 <div class="container register">
     <div class="row">
         <div class="col-md-6 col-md-offset-3 xmainbox">
@@ -49,18 +47,14 @@
                 <label for="address">Unvan</label>
                 <input type="text" class="form-control" id="address" name="address" placeholder="Enter surname">
             </div> --}}
-
             {{-- <div class="form-group">
                 <label for="phone">Telefon</label>
                 <input type="text" class="form-control" id="phone" name="phone" placeholder="Enter surname">
             </div> --}}
-
-           {{--  <div class="form-group">
+            {{--  <div class="form-group">
                 <label for="city">Sheher</label>
                 <input type="text" class="form-control" id="city" name="" placeholder="Enter surname">
             </div> --}}
-
-
         </div>
         <div class="row">
             <div class="xcheckbox">

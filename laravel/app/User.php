@@ -1,11 +1,9 @@
 <?php
-
 namespace App;
-
 use Illuminate\Foundation\Auth\User as Authenticatable;
-
 class User extends Authenticatable
 {
+<<<<<<< HEAD
     /**
      * The attributes that are mass assignable.
      *
@@ -57,3 +55,33 @@ class User extends Authenticatable
 >>>>>>> 310fd2413b0d1ac4d804cc7c818193065f683eb7
 }
 
+=======
+/**
+* The attributes that are mass assignable.
+*
+* @var array
+*/
+protected $table ='users';
+protected $fillable = [
+'status', 'type',
+'address',
+'email',
+'phone',
+'bio',
+'password',
+'name',
+'surname',
+'birth_date',
+'profile_img',
+'city_id'
+];
+/**
+* The attributes that should be hidden for arrays.
+*
+* @var array
+*/
+protected $hidden = [
+'password', 'remember_token',
+];
+}
+>>>>>>> e5ce22179c0b189fb509a121967ada987c539fd9

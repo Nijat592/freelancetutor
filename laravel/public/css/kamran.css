@@ -6,6 +6,47 @@ footer {
 			width:100%;
 			background:#26262a;
 		}
+	
+		.searchbuttondrop{
+			background-color:transparent !important;
+			border-color:transparent !important;
+			color:darkgray;
+			letter-spacing:1px;
+			font-weight:bold;
+			margin-top:6px;
+			font-size:16px;
+			width:250px;
+			padding: 7px;
+			border:none !important;
+
+		}
+		.searchbuttondrop:active{
+			outline: none;
+		}
+		.searchbuttondrop:focus{
+			outline: none;
+		}
+		.searchbuttondrop:hover{
+			outline: none;
+		}
+		.searchbuttondrop:visited{
+			outline: none;
+		}
+
+	
+		
+		.indexsearch{
+			position:absolute;
+			left:95%;
+			top:9px;
+			color:white;
+			background-color:transparent;
+			border-color:transparent;
+		}
+		.indexsearch:hover{
+			color:white;
+		}
+
 		.footertop{
 			padding-top		:60px;
 			padding-bottom	:50px;
@@ -107,10 +148,15 @@ footer {
                  background-color: #33B6CB;
 
 		}
+
+		.btn:hover, .btn:focus, .btn:active, .btn:active:focus {
+           -webkit-box-shadow: none;
+   			box-shadow: none;
+    		outline: none;
+		}
 		.aq3 button:hover{
 			background-color: #2991A2;
 		}
-
 		.emailin:focus{
 			border-color:#26262a !important;
 			  outline: 0;
@@ -673,6 +719,7 @@ footer {
 	}
 	.proshekil div img{
 		width:100%;
+		height: 82px;
 		border-radius:100%;
 	}
 	.pro{
@@ -769,12 +816,15 @@ footer {
 .proconimg{
 	padding-top:10px;
 	padding-bottom:15px;
+	
 }
 .proconimg img{
 	width:100%;
+	height:200px;
 	border:1px solid gray;
 	padding:4px;
 	border-radius:3px;
+	
 }
 .btnas{
 	padding:11px;
