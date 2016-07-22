@@ -23,7 +23,11 @@
 	
 	<div class="row">
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<h1 class="s-center">skjhkjh</h1>
+=======
+		<h1 class="s-center">{{$data->name}} {{$data->surname}} </h1>
+>>>>>>> 310fd2413b0d1ac4d804cc7c818193065f683eb7
 =======
 		<h1 class="s-center">{{$data->name}} {{$data->surname}} </h1>
 >>>>>>> 310fd2413b0d1ac4d804cc7c818193065f683eb7

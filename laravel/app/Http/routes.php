@@ -51,6 +51,9 @@ Route::post('/profile/subject/create', 'SubjectsController@create');
 Route::resource('/education', 'EducationsController');
 Route::get('/education/{education}/delete', 'EducationsController@destroy');
 // Route::get()
+<<<<<<< HEAD
+>>>>>>> 310fd2413b0d1ac4d804cc7c818193065f683eb7
+=======
 >>>>>>> 310fd2413b0d1ac4d804cc7c818193065f683eb7
 
 Route::get('pro/{id}/edit', 'SubjectsController@edit');
@@ -68,10 +71,13 @@ Route::get('/experience', function() {
 	return view('front.profile.experience');
 });
 
+<<<<<<< HEAD
 // Route::get('/subject', function() {
 // 	return view('front.profile.subject');
 // });
 
+=======
+>>>>>>> 310fd2413b0d1ac4d804cc7c818193065f683eb7
 Route::get('/tutor/{id}','TutorController@index');
 Route::auth();
 
