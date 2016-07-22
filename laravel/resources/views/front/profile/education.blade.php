@@ -2,6 +2,7 @@
 <!-- section1 burda baslayir -->
 @section('content')
 <<<<<<< HEAD
+<<<<<<< HEAD
     <a href="/profile/education/create"><button type="button" class="btn btn-info">Add New</button></a><br><br>
       <table class="table table-bordered">
         <thead>
@@ -17,6 +18,12 @@
       <table class="table table-bordered">
         <thead>
           <tr>
+=======
+    <a href="{{ route('education.create') }}"><button type="button" class="btn btn-info">Əlavə et</button></a><br><br>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+>>>>>>> 310fd2413b0d1ac4d804cc7c818193065f683eb7
             {{-- <th>No.</th> --}}
             <th>Fakültə</th>
             <th>Universitet</th>

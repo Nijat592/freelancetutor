@@ -25,6 +25,7 @@ class User extends Authenticatable
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     public function subjects(){
 
@@ -42,11 +43,16 @@ class User extends Authenticatable
         return $this->belongsToMany('App\Education');
     }
 =======
+=======
+>>>>>>> 310fd2413b0d1ac4d804cc7c818193065f683eb7
     public function educations ()
     {
         return $this-belongsTo('App\Education');
     }
 
+<<<<<<< HEAD
+>>>>>>> 310fd2413b0d1ac4d804cc7c818193065f683eb7
+=======
 >>>>>>> 310fd2413b0d1ac4d804cc7c818193065f683eb7
 }
 
