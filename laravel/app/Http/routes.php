@@ -31,30 +31,40 @@ Route::get('/profile', function(){
 	return view('front.profile');
 });
 
-
+Route::get('/profile/education/create', function(){
+	return view('front.edit_profile.create_education');
+});
 
 Route::get('/profile/experience/create', function(){
 	return view('front.edit_profile.create_experience');
 });
 
-Route::get('/profile/subject/create', function(){
-	return view('front.edit_profile.create_subject');
+Route::get('/profile/subject/create', 'SubjectsController@show');
+Route::get('/profile/{id}/create', 'SubjectsController@show');
+
+
+Route::get('/subject', 'SubjectsController@index');
+
+Route::post('/profile/subject/create', 'SubjectsController@create');
+
+Route::get('pro/{id}/edit', 'SubjectsController@edit');
+
+Route::patch('/profile/{data}/update', 'SubjectsController@update');
+
+Route::get('/pro/{id}/delete', 'SubjectsController@delete');
+
+
+Route::get('/education', function() {
+	return view('front.profile.education');
 });
-
-Route::resource('/education', 'EducationsController');
-Route::get('/education/{education}/delete', 'EducationsController@destroy');
-
 
 Route::get('/experience', function() {
 	return view('front.profile.experience');
 });
 
-
-
-Route::get('/subject', function() {
-	return view('front.profile.subject');
-});
-
+// Route::get('/subject', function() {
+// 	return view('front.profile.subject');
+// });
 
 
 Route::auth();
@@ -63,9 +73,7 @@ Route::get('/home', 'HomeController@index');
 
 
 
-Route::get('/experience/edit/{id}', 'ExperiencesController@edit');
-Route::get('/experience/create', 'ExperiencesController@create');
-Route::post('/experience/{id}', 'ExperiencesController@update');
-Route::get('/experience/{id}', 'ExperiencesController@destroy');
 
-Route::resource('/experience', 'ExperiencesController');
+Route::get('/teacher/{id}', function() {
+	return view('front.details');
+});

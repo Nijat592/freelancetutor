@@ -15,15 +15,13 @@ class CreateTeacherSubjectsTable extends Migration
         Schema::create('teacher_subjects', function (Blueprint $table) {
             $table->increments('id');
             $table->boolean('status');
-            $table->integer('teacher_id')->unsigned();
-            $table->foreign('teacher_id')->references('id')->on('users');
+            $table->integer('user_id')->unsigned();
+            $table->foreign('user_id')->references('id')->on('users');
             $table->integer('subject_id')->unsigned();
-            $table->foreign('subject_id')->references('id')->on('subjects');
-            $table->string('subject_name');
+            $table->foreign('subject_id')->references('id')->on('subjects')->onUpdate('cascade');
             $table->string('interval');
             $table->integer('cost')->unsigned();
             $table->string('description');
-            $table->text('text');
             $table->timestamps();
         });
     }

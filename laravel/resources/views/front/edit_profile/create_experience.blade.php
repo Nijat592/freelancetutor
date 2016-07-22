@@ -2,8 +2,7 @@
 
 <!-- section1 burda baslayir -->
 @section('content')
-				 <form action="{{ route("experience.store") }}" method="POST">
-				 {{csrf_field()}}
+				 <form>
 		              <div class="box-body">
 		                <div class="form-group">
 		                  <label for="Company">Company</label>
@@ -17,8 +16,7 @@
 		                  <label for="Years">Years</label>
 		                  <input name="years" type="text" class="form-control" id="Years" >
 		                </div>
-		                
-						<!-- 
+<!-- 
 		                 <div class="form-group">
 			                <div class="row">
 				                <div class="col-md-6">
