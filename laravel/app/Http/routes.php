@@ -43,6 +43,7 @@ Route::get('/profile/subject/create', function(){
 
 Route::resource('/education', 'EducationsController');
 Route::get('/education/{education}/delete', 'EducationsController@destroy');
+// Route::get()
 
 
 Route::get('/experience', function() {
@@ -53,7 +54,7 @@ Route::get('/subject', function() {
 	return view('front.profile.subject');
 });
 
-
+Route::get('/tutor/{id}','TutorController@index');
 Route::auth();
 
 Route::get('/home', 'HomeController@index');

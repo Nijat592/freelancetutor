@@ -1,16 +1,18 @@
 @extends('layouts.main_with_sidebar')
 <!-- section1 burda baslayir -->
 @section('content')
-    <a href="{{ route('education.create') }}"><button type="button" class="btn btn-info">Add New</button></a><br><br>
+    <a href="{{ route('education.create') }}"><button type="button" class="btn btn-info">Əlavə et</button></a><br><br>
       <table class="table table-bordered">
         <thead>
           <tr>
             {{-- <th>No.</th> --}}
-            <th>Faculty</th>
-            <th>University</th>
-            <th>Begin</th>
-            <th>End</th>
-            <th>Additional Notes</th>
+            <th>Fakültə</th>
+            <th>Universitet</th>
+            <th>Daxil olub</th>
+            <th>Bitirib</th>
+            <th>Əlavə qeydlər</th>
+            <th>Redaktə et</th>
+            <th>Sil</th>
             
           </tr>
         </thead>
