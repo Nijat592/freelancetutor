@@ -24,9 +24,21 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    public function experinces()
-    {
-        return $this->hasMany('App\Experience');
+
+    public function subjects(){
+
+        return $this->belongsToMany('App\Subject', 'teacher_subjects')->withPivot('interval', 'cost', 'description', 'id');
     }
 
+
+    public function experiences(){
+
+        return $this->belongsToMany('App\Experience');
+    }
+
+    public function educations(){
+
+        return $this->belongsToMany('App\Education');
+    }
 }
+

@@ -22,7 +22,7 @@
 	</div>
 	
 	<div class="row">
-		<h1 class="s-center">Əfqan Əbilov</h1>
+		<h1 class="s-center">skjhkjh</h1>
 	</div>
 	<div class="row">
 		<p class="s-center" style="color:#9393AE"><i class="fa fa-map-marker" aria-hidden="true"></i> 254, Somewhere Street, Paris, 32541, France  |  <i class="fa fa-phone" aria-hidden="true"></i> +995-123-4567</p>
