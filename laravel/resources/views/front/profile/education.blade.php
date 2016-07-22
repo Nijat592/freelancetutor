@@ -1,6 +1,7 @@
 @extends('layouts.main_with_sidebar')
 <!-- section1 burda baslayir -->
 @section('content')
+<<<<<<< HEAD
     <a href="/profile/education/create"><button type="button" class="btn btn-info">Add New</button></a><br><br>
       <table class="table table-bordered">
         <thead>
@@ -11,6 +12,21 @@
             <th>End</th>
             <th>Edit</th>
             <th>Delete</th>
+=======
+    <a href="{{ route('education.create') }}"><button type="button" class="btn btn-info">Əlavə et</button></a><br><br>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            {{-- <th>No.</th> --}}
+            <th>Fakültə</th>
+            <th>Universitet</th>
+            <th>Daxil olub</th>
+            <th>Bitirib</th>
+            <th>Əlavə qeydlər</th>
+            <th>Redaktə et</th>
+            <th>Sil</th>
+            
+>>>>>>> 310fd2413b0d1ac4d804cc7c818193065f683eb7
           </tr>
         </thead>
         <tbody>
