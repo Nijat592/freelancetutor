@@ -76,7 +76,13 @@ $user->address = $request['address'];
 $user->email = $request['email'];
 $user->birth_date = $request['birth_date'];
 $user->city_id = $request['city'];
-// $user->profile_img = $request['profile_img'];
+ if ($request->profile_img!='') {
+            $realName=$request->profile_img->getClientOriginalName();
+            $nameImg  = rand().'_'.$realName;
+            $request->profile_img->move("uploadimage",$nameImg);
+          $user->profile_img = $nameImg;
+            
+        }
 $user->save();
 return redirect('/profile');
 }

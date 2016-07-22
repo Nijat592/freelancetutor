@@ -12,18 +12,16 @@
 			<hr>
 		</div>
 		<div class="col-md-12">
-			<span style="margin-left:px;"><b>Şəkil</b></span>
+			<span><b>Şəkil</b></span>
 		</div>
 		
 		<div class="proconimg col-md-4">
-			<img src="{{Auth::user()->profile_img}}" alt="">
+			<img src="uploadimage/{{Auth::user()->profile_img}}" >
 		</div>
 		<div class="col-md-4">
 		</div>
 		<div class="col-md-4"></div>
-		<form class="form-inline" method="post" action="{{url('profile/'.Auth::user()->id)}}" >
-			{{-- enctype="multipart/form-data" --}}
-			{{-- enctype="apply/multiple_upload" --}}
+		<form class="form-inline" method="post" action="{{url('profile/'.Auth::user()->id)}}" enctype="multipart/form-data">
 			{{csrf_field()}}
 			{{method_field('patch')}}
 			<div class=" col-md-12">

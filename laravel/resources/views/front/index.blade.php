@@ -20,8 +20,11 @@
           <div class="col-md-6">
            <select name="subject"  class="searchbuttondrop">
               <option value="Fenn secin" >Fənn seçin</option>
-              @foreach($fenn as $fenns)
-              <option value="{{$fenns->id}}">{{$fenns->title  }}</option>
+              @foreach($kateqoriya as $kate)
+                <option value="" disabled>{{$kate->title}}</option>
+              @foreach($kate->subjects as $fenns)
+                <option value="{{$fenns->id}}">{{$fenns->title  }}</option>
+              @endforeach
               @endforeach
             </select>
           </div>

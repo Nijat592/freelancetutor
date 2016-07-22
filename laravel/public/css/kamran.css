@@ -719,6 +719,7 @@ footer {
 	}
 	.proshekil div img{
 		width:100%;
+		height: 82px;
 		border-radius:100%;
 	}
 	.pro{
@@ -815,12 +816,15 @@ footer {
 .proconimg{
 	padding-top:10px;
 	padding-bottom:15px;
+	
 }
 .proconimg img{
 	width:100%;
+	height:200px;
 	border:1px solid gray;
 	padding:4px;
 	border-radius:3px;
+	
 }
 .btnas{
 	padding:11px;

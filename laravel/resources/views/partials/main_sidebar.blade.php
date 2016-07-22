@@ -2,8 +2,8 @@
 	<div class="pro col-md-12">
 		<div class="col-md-3"></div>
 		<div class="proshekil col-md-6">
-			<div>
-				<img src="/image/mans.jpg">
+			<div >
+				<img src="uploadimage/{{Auth::user()->profile_img}}">
 			</div>
 		</div>
 		<div class="col-md-3">

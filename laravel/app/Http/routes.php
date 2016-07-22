@@ -25,6 +25,8 @@ Route::get('/register_page', function(){
 // });
 Route::resource('/profile', 'ProfileEditController');
 Route::patch('/profile/edit','ProfileEditController@editProfile');
+Route::get('/profile','ProfileEditController@index');
+Route::post('/file/upload','ProfileEditController@editProfile');
 // file update uchun deneme
 // Route::put('/profile/edit','ProfileEditController@update');
 Route::get('/profile/education/create', function(){
